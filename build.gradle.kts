@@ -1,0 +1,30 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+    kotlin("jvm") version "1.5.10"
+    application
+}
+
+group = "me.jefflee"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(kotlin("test"))
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions:1.1.3")
+}
+
+tasks.test {
+    useJUnit()
+}
+
+tasks.withType<KotlinCompile>() {
+    kotlinOptions.jvmTarget = "11"
+}
+
+application {
+    mainClassName = "MainKt"
+}
