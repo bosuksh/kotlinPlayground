@@ -15,6 +15,8 @@ fun main(args: Array<String>){
         .map{println(stringList)}
 //        .subscribe()
 
+    println("git master는 진행된다 ")
+
 
     val userNameList = userList.associateBy { it.name }
 
