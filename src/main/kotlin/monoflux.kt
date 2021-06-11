@@ -15,6 +15,7 @@ fun main(args: Array<String>){
         .map{println(stringList)}
 
     println("git master는 진행된다 ")
+    println("origin/master로 부터 rebase함")
 
 
     val userNameList = userList.associateBy { it.name }
