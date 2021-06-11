@@ -6,14 +6,13 @@ fun main(args: Array<String>){
     var stringListMono = Mono.just(stringList)
 
 
-//    var userList  = listOf(User("Hello",12), User("B",11))
+
     var userList  = listOf<User>()
 
     val testuserList = listOf(User("A",11   ), User("B",11), User("C", 13), User("D",14))
     stringListMono.
     filter{!it.isNullOrEmpty()}
         .map{println(stringList)}
-//        .subscribe()
 
     println("git master는 진행된다 ")
 
