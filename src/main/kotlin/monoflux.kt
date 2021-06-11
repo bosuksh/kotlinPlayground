@@ -16,6 +16,7 @@ fun main(args: Array<String>){
 
     println("git master는 진행된다 ")
     println("master는 계속 또 진행됨")
+    println("123123")
 
 
 
