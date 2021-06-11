@@ -15,8 +15,6 @@ fun main(args: Array<String>){
         .map{println(stringList)}
 
     println("git master는 진행된다 ")
-    println("origin/master로 부터 rebase함")
-
     println("master는 계속 또 진행됨")
 
 
