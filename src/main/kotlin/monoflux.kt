@@ -19,7 +19,7 @@ fun main(args: Array<String>){
     println("456456 from test")
     println("789789")
     println("1231231231231")
-    println("")
+    println("newone")
 
 
 
