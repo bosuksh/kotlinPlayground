@@ -2,6 +2,7 @@ import reactor.core.publisher.Flux
 import reactor.core.scheduler.Schedulers
 import reactor.kotlin.core.publisher.toMono
 
+
 fun main(args: Array<String>) {
     val stringList = listOf("1", "2", "3")
 
